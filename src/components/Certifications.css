@@ -1,0 +1,55 @@
+/* Certifications grid layout */
+.certifications {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .certificate-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .certificate-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .certificate-name {
+    margin-top: 10px;
+  }
+  
+  /* Media queries for responsive layout */
+  @media (max-width: 520px) {
+    .certifications {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 521px) and (max-width: 760px) {
+    .certifications {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 761px) {
+    .certifications {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    @media (min-width: 1024px) {
+      .certifications {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
