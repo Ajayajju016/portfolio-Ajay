@@ -13,7 +13,7 @@ const NavbarComponent = () => {
           <Nav.Link href="#projects">Projects</Nav.Link>
           <Nav.Link href="#certifications">Certificates</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link href="https://drive.google.com/file/d/1zf4uMrbvDepf1-z_FXVawb9B0XkBYiic/view?usp=drivesdk">Resume</Nav.Link>
+          <Nav.Link href="https://drive.google.com/file/d/1zf4uMrbvDepf1-z_FXVawb9B0XkBYiic/view?usp=drivesdk" target='_blank'>Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       
